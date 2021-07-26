@@ -1,3 +1,5 @@
+# !pip install joypy
+
 import pandas as pd
 from joypy import joyplot
 import matplotlib.pyplot as plt
