@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv("Admission_Predict.csv")
 # print(df.info())
-df_new['University Rating'] = df_new['University Rating'].astype(str)
+df['University Rating'] = df['University Rating'].astype(str)
 
 joyplot(df, by = 'University Rating', column = 'CGPA', color = 'Orange', fade = True)
 plt.xlabel("CGPA")
