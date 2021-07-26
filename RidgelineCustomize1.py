@@ -3,6 +3,7 @@
 import pandas as pd
 from joypy import joyplot
 import matplotlib.pyplot as plt
+from matplotlib import cm
 
 df = pd.read_csv("Admission_Predict.csv")
 # print(df.info())
